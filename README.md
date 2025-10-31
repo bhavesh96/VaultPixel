@@ -1,16 +1,71 @@
-# React + Vite
+# 🎮 VaultPixel
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**VaultPixel** is a simple game discovery web app I built to explore how real-world projects connect with external APIs.  
+It lets you search, filter, and browse video games using data from the free [RAWG.io](https://rawg.io/apidocs) API.
 
-Currently, two official plugins are available:
+I wanted to work on something different from the usual “movie app” tutorials — something visual, data-rich, and a bit more fun.  
+VaultPixel came out of that idea.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔍 **Search games** by name  
+- 🧩 **Filter by genre** (Action, RPG, Strategy, etc.)  
+- 📱 **Responsive layout** built with Tailwind CSS  
+- ⚡ **Fast data fetching** using the RAWG API  
+- 📖 **Game detail pages** with screenshots, ratings, and platforms  
+- ⏭️ **Pagination** for browsing popular games easily  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 Tech Stack
+
+- **React + Vite** – frontend framework & build setup  
+- **Tailwind CSS** – for styling and responsiveness  
+- **RAWG API** – for game data  
+- **React Router** – for navigation between pages  
+
+---
+
+## 🧩 What I Learned
+
+While building VaultPixel, I practiced:
+- Working with an external REST API (handling queries, filters, and pagination)
+- Managing app state with React hooks (`useState`, `useEffect`)
+- Creating reusable components (search bar, game cards, filters)
+- Handling responsive design with Tailwind utilities
+- Cleaning up API calls and optimizing for user experience
+
+It started as a small weekend project, but I ended up polishing it much more than I expected.
+
+---
+
+## 🚀 Running Locally
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/VaultPixel.git
+Install dependencies:
+
+bash
+Copy code
+npm install
+Create a .env file in the root folder:
+
+ini
+Copy code
+VITE_RAWG_API_KEY=your_api_key_here
+Run the project:
+
+bash
+Copy code
+npm run dev
+Open http://localhost:5173 in your browser.
+
+
+
+🧑‍💻 About
+
+I built VaultPixel to strengthen my understanding of React, REST APIs, and modern front-end development practices.
+It’s not a huge project, but it reflects how I like to learn — by building things that look real and work smoothly.
