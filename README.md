@@ -1,4 +1,4 @@
-# 🎮 VaultPixel
+# VaultPixel
 
 **VaultPixel** is a simple game discovery web app I built to explore how real-world projects connect with external APIs.  
 It lets you search, filter, and browse video games using data from the free [RAWG.io](https://rawg.io/apidocs) API.
@@ -8,7 +8,7 @@ VaultPixel came out of that idea.
 
 ---
 
-## ✨ Features
+## Features
 
 - 🔍 **Search games** by name  
 - 🧩 **Filter by genre** (Action, RPG, Strategy, etc.)  
@@ -19,7 +19,7 @@ VaultPixel came out of that idea.
 
 ---
 
-## 🧠 Tech Stack
+## Tech Stack
 
 - **React + Vite** – frontend framework & build setup  
 - **Tailwind CSS** – for styling and responsiveness  
@@ -28,7 +28,7 @@ VaultPixel came out of that idea.
 
 ---
 
-## 🧩 What I Learned
+## What I Learned
 
 While building VaultPixel, I practiced:
 - Working with an external REST API (handling queries, filters, and pagination)
@@ -41,31 +41,28 @@ It started as a small weekend project, but I ended up polishing it much more tha
 
 ---
 
-## 🚀 Running Locally
+## Running Locally
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/VaultPixel.git
-Install dependencies:
+   git clone https://github.com/bhavesh96/VaultPixel.git
 
-bash
-Copy code
-npm install
-Create a .env file in the root folder:
+2. Install dependencies:
+   ```bash
+   npm install
 
-ini
-Copy code
-VITE_RAWG_API_KEY=your_api_key_here
-Run the project:
+3. Create a .env file or change key in the root folder:
+   ```bash
+   VITE_RAWG_API_KEY=your_api_key_here
 
-bash
-Copy code
-npm run dev
+4. Run the project:
+   ```bash
+   npm run dev
+
 Open http://localhost:5173 in your browser.
 
-
-
-🧑‍💻 About
+## About
 
 I built VaultPixel to strengthen my understanding of React, REST APIs, and modern front-end development practices.
 It’s not a huge project, but it reflects how I like to learn — by building things that look real and work smoothly.
+Thank to [RAWG.io](https://rawg.io/apidocs)
